@@ -2,11 +2,11 @@
 
 Complete file downloader for Canvas (Instructure)!
 
-Originally by [Ben Javicente](https://github.com/benjavicente/canvas-file-downloader), essentially rewritten from scratch by Aaron Becker.
+Originally by [Ben Javicente](https://github.com/benjavicente/canvas-file-downloader), essentially rewritten from scratch by [Aaron Becker](https://github.com/aaroexxt).
 
-Written during senior year at MIT, since I want to save as many files as I can from the classes here.
+Written during senior year at MIT, since I want to save as many files as I can from the classes here (and relive the joy & pain of the last 4 years)
 
-Features:
+### Features:
 
 - Downloads all courses (or only the ones marked as favorites)
 - Can see everything you can see, i.e. every accessible assignment will be downloaded
@@ -15,8 +15,7 @@ Features:
 - If a Google Drive file is linked, it will be downloaded
 - Semi-extensively tested (lol - fixed a lot of bugs)
 
-Usage:
-
+## Usage:
 
 ### Install required packages
 
