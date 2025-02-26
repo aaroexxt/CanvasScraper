@@ -35,7 +35,9 @@ Then, click on "New Access Token" and enter "CanvasDownloader" in Purpose, then 
 
 You will get a token with a form like `7XXX~XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`. Copy this text, that's the actual access key.
 
-Then, run the script with:
+### Run the script downloader script
+
+Usage is simple:
 
 ```shell
 python canvas.py <YOUR-TOKEN> <CANVAS-DOMAIN> --all
@@ -43,7 +45,7 @@ python canvas.py <YOUR-TOKEN> <CANVAS-DOMAIN> --all
 
 Where:
 
-- `YOUR-TOKEN` is the token access of Canvas, generated from your settings page, see below for instructions (for me, this is `https://canvas.mit.edu/profile/settings`)
+- `YOUR-TOKEN` is the token access of Canvas, generated from your settings page, see [above](#generate-canvas-api-token) for instructions (for me, this is `https://canvas.mit.edu/profile/settings`)
 - `CANVAS-DOMAIN` the Canvas domain where files will be downloaded.
 
 You should be prompted with a list of available courses to download from, if it's just a few classes make sure you include the `--all` flag to ensure it's all classes and not just favorites.
